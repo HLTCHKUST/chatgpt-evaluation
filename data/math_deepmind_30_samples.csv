@@ -1,0 +1,32 @@
+Type,Question,Gold_answer
+algebra__linear_1d,Solve -282*d + 929 - 178 = -1223 for d.,7
+algebra__linear_1d,Solve 49*l + 45*l - 125 - 63 = 0 for l.,2
+algebra__linear_1d,Solve -64*t + 1387 - 848 + 933 = 0 for t.,23
+algebra__linear_1d,Solve 75*g = 192*g - 71*g - 79*g - 264 for g.,-8
+algebra__linear_1d,Solve -34*v + 232*v + 52351 = 48985 for v.,-17
+arithmetic__add_or_sub,What is the difference (i.e subtraction) between -221017 and -1429.06?,219587.94
+arithmetic__add_or_sub,What is 117798 minus -802139?,919937
+arithmetic__add_or_sub,What is 5082.432 take away -336?,5418.432
+arithmetic__add_or_sub,Subtract -81250690 from -121.7,81250568.3
+arithmetic__add_or_sub,Subtract 202.59900349 from -0.09.,-202.6890035
+calculus__differentiate,What is the first derivative of 24923*n**2 - 155*n - 14745668 wrt n?,49846*n - 155
+calculus__differentiate,Find the third derivative of -61*j**3*s**3 - 4419*j**3*s + 1729*j**2*s**3 + 192*j**2*s**2 + 3*s**3 wrt j.\n,-366*s**3 - 26514*s
+calculus__differentiate,What is the first derivative of 13*a**2 - 627434*a + 11914106?,26*a - 627434
+calculus__differentiate,What is the first derivative of 5018*w**4 + 15*w**3 + 15*w + 12680810 wrt w?,20072*w**3 + 45*w**2 + 15\n
+calculus__differentiate,Find the third derivative of -3311603*a**2*p**3 - 16314194*a**2*p**2 wrt p.,-19869618*a**2
+calculus__differentiate,Find the second derivative of -7020894*j**2 + 2*j - 5447770.,-14041788
+comparison__closest,Which is the nearest to 6? (a) -462/107 (b) 0.3 (c) 6/19,c
+comparison__closest,Which is the closest to -1/2? (a) 31.94 (b) 3 (c) -6 (d) -1/4,d
+comparison__closest,"What is the closest to 0.2 in 4187, -13, 2?",2
+comparison__closest,"What is the nearest to 1/5 in 8, 5/3, -245, -2/11?",-0.181818182
+comparison__closest,Which is the nearest to -7977? (a) -0.01 (b) -12 (c) -2,b
+measurement_conversion,What is 87000.45l in millilitres?,87000450
+measurement_conversion,What is 24/5 of a week in minutes?,48384
+measurement_conversion,What is 69883.98nm in centimeters?,0.006988398
+measurement_conversion,How many nanoseconds are there in 1968.153 days?,1.70E+17
+measurement_conversion,What is 698.4209 nanometers in centimeters?,6.98421E-05
+numbers_base_conversion,Convert -3a445 (base 11) to base 14.,-170a2
+numbers_base_conversion,What is -96445 (base 11) in base 12?,-69228
+numbers_base_conversion,Convert 142a3 (base 14) to base 6.,1023051
+numbers_base_conversion,Convert -33298 (base 13) to base 4.,-112221001
+numbers_base_conversion,Convert -11232 (base 11) to base 16.,-3f79

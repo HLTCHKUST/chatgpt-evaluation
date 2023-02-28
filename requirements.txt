@@ -1,0 +1,4 @@
+gdown
+pandas
+datasets==2.8.0
+git+https://github.com/IndoNLP/nusa-crowd.git@master
