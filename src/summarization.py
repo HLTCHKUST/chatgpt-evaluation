@@ -24,7 +24,7 @@ def CNNDM():
     test_ids = []
     
     for i in range(len(data)):
-        prompt = "Article: {}\n Summarize the above drticle.".format(data[i]['src'])
+        prompt = "Article: {}\n Summarize the above article.".format(data[i]['src'])
         test_examples.append({"src":data[i]['src'], "tgt":data[i]['tgt'], "prompt": prompt})
         test_ids.append(i)
     return test_examples, test_ids
@@ -53,6 +53,3 @@ if __name__ == "__main__":
     print("choose the testset you want")
     # test_examples, test_ids = SAMSum()
     test_examples, test_ids = CNNDM()
-    print(test_examples[0].keys())
-    print(test_ids)
-    # test_examples, test_ids = covid_factchecking('social')

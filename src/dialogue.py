@@ -115,7 +115,7 @@ def multiwoz22(exp_type): #["DST", "response_gen"]
     
 
 
-def opendialkg(sample_num): 
+def opendialkg(): 
     """
         OpenDialKG - Hallucination
         {

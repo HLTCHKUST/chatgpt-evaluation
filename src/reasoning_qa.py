@@ -262,10 +262,12 @@ def step_game(exp_type): # ['hard', 'basic', 'clock-position', 'basic-cardinal',
     
     test_examples, test_golds = [], []
     for i in test_ids:
-        ex = [stepgame_data[str(id_)]]
+        # ex = [stepgame_data[str(i)]]
+        ex = stepgame_data[str(i)]
         if exp_type == 'hard':
             ex['input'] = "Given the description: {}. {}".format(
                 ' '.join(ex['story']), ex['question'].replace('relation', 'spatial relation, (e.g left, right, above lower-left, ..)'))
+       
         else:
             ex['input'] = f"{ex['story'][0]} {ex['question']} {MC_text}"
         test_examples.append(ex['input'])
@@ -405,7 +407,7 @@ def babi(exp_type = 15, prompt_engineering=False, num_dataset=30, batching=True,
         os.system('rm -rf tasks_1-20_v1-2.tar.gz')
         os.system('mv tasks_1-20_v1-2 data/')
     
-    prompts, golds = make_samples(filename, task_id, prompt_engineering, batching)
+    prompts, golds = make_samples(filename, exp_type, prompt_engineering, batching)
     
     df = pd.DataFrame({'Ids':list(range(num_dataset)), 'Prompts':prompts[:num_dataset], 'Golds':golds[:num_dataset]})
     test_examples = df.Prompts.tolist()
